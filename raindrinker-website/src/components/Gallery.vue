@@ -158,4 +158,14 @@
         font-weight: bold;
         padding-bottom: 12px;
     }
+
+    @media only screen and (max-width: 1000px) {
+        .overlay-container {
+            margin-left: 0px;
+        }
+
+        .image {
+            width: 260px;
+        }
+    }
 </style>

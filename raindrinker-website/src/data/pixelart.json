@@ -1,5 +1,11 @@
 [
   {
+    "title": "e g g",
+    "date": "2020/11/02",
+    "path": "egg.png",
+    "description": "E G G"
+  },
+  {
     "title": "Pumpkinhead Waifu",
     "date": "2020/10/16",
     "path": "spoopy_waifu_x4.png",
@@ -44,102 +50,123 @@
   {
     "title": "Medusa & gargoyle gfs",
     "date": "2020/09/5",
-    "path": "gargoyle.png"
+    "path": "gargoyle.png",
+    "description": "Draw this in your style with @Beebeediboop's OCs"
   },
   {
     "title": "Lilou",
     "date": "2020/08/17",
-    "path": "lilou.png"
+    "path": "lilou.png",
+    "description": "Portrait gift for @lilou_cormic"
+
   },
   {
     "title": "Red Calcifer",
     "date": "2020/08/05",
-    "path": "calciferx4.png"
+    "path": "calciferx4.png",
+    "description": "Portrait gift for @red_calcifer"
   },
   {
     "title": "Kiki",
     "date": "2020/08/02",
-    "path": "kikix4.png"
+    "path": "kikix4.png",
+    "description": "Kiki's delivery service fanart"
   },
   {
     "title": "Undyne",
     "date": "2020/08/02",
-    "path": "undynev1.png"
+    "path": "undynev1.png",
+    "description": "Undyne Undertale"
   },
   {
     "title": "Pastures",
     "date": "2020/07/23",
-    "path": "pasturesx4.png"
+    "path": "pasturesx4.png",
+    "description": "#justAddCharacter with background by @theartistjulian"
   },
   {
     "title": "Gobbu RPG mockup",
     "date": "2020/07/22",
-    "path": "gobbo_mockupx4.png"
+    "path": "gobbo_mockupx4.png",
+    "description": "RPG mockup with characters by @Gobb_u"
   },
   {
     "title": "Nature Spirit Owl",
     "date": "2020/07/04",
-    "path": "owl_square.png"
+    "path": "owl_square.png",
+    "description": "8 bits to infinity art challenge"
   },
   {
     "title": "Basingse",
     "date": "2020/07/03",
-    "path": "Basingse.png"
+    "path": "Basingse.png",
+    "description": "8 bits to infinity art challenge"
   },
   {
     "title": "Gobbo",
     "date": "2020/06/26",
-    "path": "gobbox4.png"
+    "path": "gobbox4.png",
+    "description": "Dtiys with an OC by @Gobb_u"
   },
   {
     "title": "Octopus girl",
     "date": "2020/05/08",
-    "path": "octopus_girl_dtiys.jpg"
+    "path": "octopus_girl_dtiys.jpg",
+    "description": "Dtiys with an OC by @artofmaxinevee"
   },
   {
     "title": "AC comission: duckie",
     "date": "2020/04/26",
-    "path": "ACcomission_duckie.jpg"
+    "path": "ACcomission_duckie.jpg",
+    "description": "Animal Crossing comission, paid in a lot of bells"
   },
   {
     "title": "Unfinished fanarts",
     "date": "2020/04/05",
-    "path": "unfinished_fanarts.jpg"
+    "path": "unfinished_fanarts.jpg",
+    "description": "Welp"
   },
   {
     "title": "Toptable",
     "date": "2020/04/05",
-    "path": "toptable.png"
+    "path": "toptable.png",
+    "description": "Critical Role campaign 2 top table"
   },
   {
     "title": "This too shall pass",
     "date": "2020/03/04",
-    "path": "Infinity.png"
+    "path": "Infinity.png",
+    "description": "From classic tale, appearing in The Messenger"
   },
   {
     "title": "Fireball card",
     "date": "2020/02/25",
-    "path": "fireball_card_42.png"
+    "path": "fireball_card_42.png",
+    "description": "Community challenge for the KS game Dungeon Drafters"
   },
   {
     "title": "Everything that crawls and weaves",
     "date": "2020/02/20",
-    "path": "crawls.jpg"
+    "path": "crawls.jpg",
+    "description": "The Magnus Archives inspired"
   },
   {
     "title": "Treebear",
     "date": "2020/01/28",
-    "path": "Treebear.png"
+    "path": "Treebear.png",
+    "description": "Pixel dailies with theme 'hybrid'"
   },
   {
     "title": "Race",
     "date": "?",
-    "path": "Race.png"
+    "path": "Race.png",
+    "description": "Pixel dailies with theme 'racetrack'"
   },
   {
     "title": "Tonberry",
     "date": "2020/01/25",
-    "path": "Tonberry.png"
+    "path": "Tonberry.png",
+    "description": "Pixel dailies with theme 'lantern'"
   },
   {
     "title": "Sphinx",
@@ -149,7 +176,8 @@
   {
     "title": "Terrors",
     "date": "2020/01/11",
-    "path": "Entities_partial.png"
+    "path": "Entities_partial.png",
+    "description": "The Magnus Archives entities: Dark, Hunt, Spiral, Buried"
   },
   {
     "title": "Twitter header",
@@ -184,7 +212,8 @@
   {
     "title": "Caduceus Clay",
     "date": "2019/08/11",
-    "path": "caduceus.png"
+    "path": "caduceus.png",
+    "description": "Critical Role character by Taliesin Jaffee"
   },
   {
     "title": "Tarot deck",
@@ -194,7 +223,8 @@
   {
     "title": "Maddie",
     "date": "2019/07/27",
-    "path": "Maddie.png"
+    "path": "Maddie.png",
+    "description": "Madeleine from Celeste"
   },
   {
     "title": "The curse of the iron mask",
@@ -204,22 +234,26 @@
   {
     "title": "Jester",
     "date": "2019/07/20",
-    "path": "jester.gif"
+    "path": "jester.gif",
+    "description": "Critical Role character by Laura Bailey"
   },
   {
     "title": "Nott swamp RPG",
     "date": "2019/06/20",
-    "path": "nott_swamp_rpg.png"
+    "path": "nott_swamp_rpg.png",
+    "description": "CriticalRole-inspired RPG mockup"
   },
   {
     "title": "Harkonnen furniture",
     "date": "2019/05/25",
-    "path": "harkonnen.png"
+    "path": "harkonnen.png",
+    "description": "Prompt by TigerJ"
   },
   {
     "title": "Mishima covers",
     "date": "2018/12/29",
-    "path": "Mishima.png"
+    "path": "Mishima.png",
+    "description": "Pixel art album cover versions fby music band Mishima"
   },
   {
     "title": "Racoons",
@@ -237,9 +271,15 @@
     "path": "CrystalBall.png"
   },
   {
+    "title": "Frustration",
+    "date": "2018/10/10",
+    "path": "Frustration.png"
+  },
+  {
     "title": "NobodyElseWillRemember",
     "date": "2018/07/18",
-    "path": "NobodyElse.jpg"
+    "path": "NobodyElse.jpg",
+    "description": "Concept for a metroidvania that becomes barren and unplayable over time"
   },
   {
     "title": "Mayushii",
@@ -259,7 +299,8 @@
   {
     "title": "Girls",
     "date": "2018/01/25",
-    "path": "girls.jpg"
+    "path": "girls.jpg",
+    "description": "Hornet, Red and Jodariel"
   },
   {
     "title": "Defiled Godess",
@@ -269,57 +310,68 @@
   {
     "title": "Black Chest",
     "date": "2017/12/30",
-    "path": "black_chest.jpg"
+    "path": "black_chest.jpg",
+    "description": "For a gift. Design by music group Novolisc"
   },
   {
     "title": "I caught the darkness",
     "date": "2017/11/29",
-    "path": "darkness.jpg"
+    "path": "darkness.jpg",
+    "description": "Inpired by Cohen's song. Reference photo by Sofia Ellar"
   },
   {
     "title": "Puigdejon, the president in the east",
     "date": "2017/10/05",
-    "path": "Puigdejon.jpg"
+    "path": "Puigdejon.jpg",
+    "description": "Catalonia's exiled president in Jon Snow's gown"
   },
   {
     "title": "1 OCT",
     "date": "2017/10/01",
-    "path": "1o.jpg"
+    "path": "1o.jpg",
+    "description": "About the repression during Catalonia's independence referendum"
   },
   {
     "title": "Berjerk Equinedude",
     "date": "2017/09/17",
-    "path": "bojack.jpg"
+    "path": "bojack.jpg",
+    "description": "Bojack Horseman tribute"
   },
   {
     "title": "Thunderbitch",
     "date": "2017/09/06",
-    "path": "thunderbitch.jpg"
+    "path": "thunderbitch.jpg",
+    "description": "Inspired by a shot called 'thunderbitch' they had in a bar that closed"
   },
   {
     "title": "Incerta",
     "date": "2017/09/04",
-    "path": "incerta.jpg"
+    "path": "incerta.jpg",
+    "description": "Portrait for a friend"
   },
   {
     "title": "Like a tourist",
     "date": "2017/07/22",
-    "path": "tourist.jpg"
+    "path": "tourist.jpg",
+    "description": "Portrait for a girl"
   },
   {
     "title": "Maeve",
     "date": "2017/06/19",
-    "path": "maeve.jpg"
+    "path": "maeve.jpg",
+    "description": "Westworld Maeve"
   },
   {
     "title": "Ace of Spades",
     "date": "2017/05/28",
-    "path": "ace.jpg"
+    "path": "ace.jpg",
+    "description": "From a pic in /r/redditgetsdrawn"
   },
   {
     "title": "Que surti el sol",
     "date": "2017/05/13",
-    "path": "quesurtielsol.jpg"
+    "path": "quesurtielsol.jpg",
+    "description": "Portrait for a girl"
   },
   {
     "title": "I dreamt of a world with dragons and flying machines",
@@ -329,37 +381,44 @@
   {
     "title": "The Intruder",
     "date": "2017/03/29",
-    "path": "intruder.jpg"
+    "path": "intruder.jpg",
+    "description": "This worked a lot better on instagram"
   },
   {
     "title": "Sir Bishop, the paladin",
     "date": "2017/02/23",
-    "path": "sirbishop.jpg"
+    "path": "sirbishop.jpg",
+    "description": "Character concept art for a college game project"
   },
   {
     "title": "Oak, forest ranger",
     "date": "2017/02/12",
-    "path": "oak.jpg"
+    "path": "oak.jpg",
+    "description": "Character concept art for a college game project"
   },
   {
     "title": "Móta",
     "date": "2017/01/31",
-    "path": "mota.jpg"
+    "path": "mota.jpg",
+    "description": "Fanart of Aomame, character in Murakami's 1Q84"
   },
   {
     "title": "Dóta",
     "date": "2017/01/31",
-    "path": "dota.jpg"
+    "path": "dota.jpg",
+    "description": "Fanart of Fukaeri, character in Murakami's 1Q84"
   },
   {
     "title": "Sofia",
     "date": "2017/01/23",
-    "path": "Sofia.jpg"
+    "path": "Sofia.jpg",
+    "description": "Portrait of musician Sofia Ellar"
   },
   {
     "title": "Greta",
     "date": "2017/01/21",
-    "path": "Greta.jpg"
+    "path": "Greta.jpg",
+    "description": "Portrait of actress Greta Fernández"
   },
   {
     "title": "Jolene",
@@ -369,16 +428,33 @@
   {
     "title": "Ink & mix",
     "date": "2016/12/20",
-    "path": "ink_mix.jpg"
+    "path": "ink_mix.jpg",
+    "description": "Portrait for a friend"
   },
   {
     "title": "self.destroy()",
     "date": "2016/12/10",
-    "path": "self_destroy.jpg"
+    "path": "self_destroy.jpg",
+    "description": "Self-portrait"
   },
   {
     "title": "Anatomy of Home",
     "date": "2016/11/09",
     "path": "anatomy_of_home.jpg"
+  },
+  {
+    "title": "Canción de bruma",
+    "date": "2016/10/07",
+    "path": "canciondebruma.jpg"
+  },
+  {
+    "title": "Pinzas en los ojos",
+    "date": "2016/10/01",
+    "path": "pinzasenlosojos.jpg"
+  },
+  {
+    "title": "Flauta man",
+    "date": "2016/10/01",
+    "path": "flautaman.jpg"
   }
 ]

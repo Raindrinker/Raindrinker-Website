@@ -35,7 +35,8 @@
     .menu {
         flex-grow: 0;
         overflow: hidden;
-        width: 300px;
+        min-width: 300px;
+        min-height: 150px;
     }
 
     .content {
@@ -46,10 +47,18 @@
 
     .logo-wrapper {
         padding: 32px;
+        display: flex;
+        justify-content: center;
     }
 
     .logo {
         width: 240px;
         image-rendering: pixelated;
+    }
+
+    @media only screen and (max-width: 1000px) {
+        .menu {
+            display: none !important;
+        }
     }
 </style>
