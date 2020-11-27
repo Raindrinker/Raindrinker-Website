@@ -1,26 +1,45 @@
 <template>
     <div class="structure">
-        <div class="menu">
+        <div class="sidebar">
         <RainWrapper>
 
-                <div class="logo-wrapper">
-                    <img src="../assets/logo_transparentx10.png" class="logo"/>
+            <div class="logo-wrapper">
+                <img src="../assets/logo_transparentx10.png" class="logo"/>
+            </div>
+
+            <div class="menu">
+                <div class="menu-option">
+                    <router-link to="/main" class="menu-option-text">
+                        MAIN
+                    </router-link>
                 </div>
+                <div class="menu-option">
+                    <router-link to="/games" class="menu-option-text">
+                        GAMES
+                    </router-link>
+                </div>
+                <div class="menu-option">
+                    <router-link to="/gallery" class="menu-option-text">
+                        ART
+                    </router-link>
+                </div>
+            </div>
         </RainWrapper>
             </div>
 
         <div class="content">
-            <Gallery/>
+            <transition name="transition" mode="out-in">
+                <router-view/>
+            </transition>
         </div>
     </div>
 </template>
 
 <script>
-    import Gallery from "./Gallery";
     import RainWrapper from "./RainWrapper";
     export default {
         name: "Structure",
-        components: {RainWrapper, Gallery}
+        components: {RainWrapper}
     }
 </script>
 
@@ -32,16 +51,17 @@
         height: 100%;
     }
 
-    .menu {
+    .sidebar {
         flex-grow: 0;
         overflow: hidden;
+        width: 300px;
         min-width: 300px;
         min-height: 150px;
     }
 
     .content {
         flex-grow: 1;
-        overflow-y: auto;
+        overflow-y: scroll;
         background-color: #EEEEEE;
     }
 
@@ -57,8 +77,52 @@
     }
 
     @media only screen and (max-width: 1000px) {
-        .menu {
+        .sidebar {
             display: none !important;
         }
     }
+
+    .menu {
+        padding: 16px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .menu-option {
+        margin-top: 32px;
+        font-family: Nunito,sans-serif;
+
+    }
+
+    .menu-option-text {
+        color: #EEEEEE;
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: bold;
+        opacity: 0.4;
+        transition: 0.2s;
+    }
+
+    .menu-option-text.router-link-active {
+        opacity: 0.8;
+    }
+
+    .transition-enter-active,
+    .transition-leave-active {
+        transition: opacity 0.3s, transform 0.3s;
+        opacity: 1;
+    }
+
+    .transition-leave-to {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+
+    .transition-enter {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+
 </style>

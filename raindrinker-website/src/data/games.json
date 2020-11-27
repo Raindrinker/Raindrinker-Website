@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Moonlight",
+    "date": "",
+    "image": "moonlight1.png",
+    "screenshots": [],
+    "genre": "Puzzle platformer",
+    "description": "Small platformer about carrying the moon to see the level, made for Alakajam 2 with theme 'You can't see everything'. Music played in an actual blue ukulele.<br><br> Got 2nd place in the jam.",
+    "team": "Solo",
+    "tools": "Game Maker Studio 2"
+  },
+  {
+    "title": "RetroRift",
+    "date": "",
+    "image": "retrorift.png",
+    "screenshots": [],
+    "genre": "Platformer",
+    "description": "Small challenging platformer about completing the level twice, the second time avoiding clones that repeat what you did the first time, in reverse. Made for Brackeys Jam 2020.2 with theme 'rewind'. <br><br> Got 9th place in the jam.",
+    "team": "With @freezed_ice",
+    "role": "Game Design, Art",
+    "tools": "Aseprite, Godot"
+  }
+]

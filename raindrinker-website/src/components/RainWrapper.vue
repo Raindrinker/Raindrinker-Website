@@ -52,6 +52,7 @@
         height: 100%;
         z-index: 2;
         opacity: 0.5;
+        pointer-events: none;
     }
 
     .rain.back-row {

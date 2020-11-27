@@ -1,7 +1,7 @@
 <template>
     <div class="wrap">
-        <div v-masonry="containerId" transition-duration="0.2s" item-selector=".item" class="gallery">
-            <div v-masonry-tile class="item" v-for="(item, index) in blocks" :key="index">
+        <div v-masonry transition-duration="0.2s" item-selector=".item" class="gallery" id="masonryId">
+            <div v-masonry-tile class="item" v-for="(item, index) in bestArtData" :key="index">
                 <div class="block">
                     <div class="img-wrap">
                         <img :src="getImgUrl(item.path)" class="image" @click="onClickImage(item)"/>
@@ -27,7 +27,6 @@
 
                     <img :src="getImgUrl(selectedItem.path)" class="overlay-img">
 
-
                 </div>
 
             </template>
@@ -36,20 +35,32 @@
 </template>
 
 <script>
-    import PixelartData from "../data/pixelart";
+    import ArtData from "../data/art";
 
     export default {
         name: "Gallery",
         data() {
             return {
-                blocks: PixelartData,
+                artData: [],
                 selectedItem: null,
                 showOverlay: false
             }
         },
+        mounted() {
+            this.artData = ArtData;
+
+            this.$redrawVueMasonry("masonryId");
+        },
+        computed: {
+            bestArtData() {
+                return this.artData.filter((d) => {
+                    return d.best;
+                })
+            }
+        },
         methods: {
             getImgUrl(file) {
-                let images = require.context('../assets/pixelart', false);
+                let images = require.context('../assets/art', false);
                 return images('./' + file)
             },
             onClickImage(item) {

@@ -3,7 +3,8 @@
     "title": "1-bit self portrait",
     "date": "2020/11/04",
     "path": "1bitselfportrait.gif",
-    "description": "Inspired by @JiskeyJaskey's art"
+    "description": "Inspired by @JiskeyJaskey's art",
+    "best": true
   },
   {
     "title": "Random pixel creatures",
@@ -21,86 +22,100 @@
     "title": "e g g",
     "date": "2020/11/02",
     "path": "egg.png",
-    "description": "E G G"
+    "description": "E G G",
+    "best": true
   },
   {
     "title": "Pumpkinhead Waifu",
     "date": "2020/10/16",
     "path": "spoopy_waifu_x4.png",
-    "description": "For glacier's (@windfallapples) waifu collab. Inspired by NITW Pumpkinhead Guy"
+    "description": "For glacier's (@windfallapples) waifu collab. Inspired by NITW Pumpkinhead Guy",
+    "best": true
   },
   {
     "title": "Archaon",
     "date": "2020/10/05",
     "path": "Archaonx4_redcircle.png",
-    "description": "Archaon, Warhammer character. Twitter commission for @ctrossgames"
+    "description": "Archaon, Warhammer character. Twitter commission for @ctrossgames",
+    "best": true
   },
   {
     "title": "Selmers",
     "date": "2020/10/20",
     "path": "selmers_x4.png",
-    "description": "Selmers from Night In The Woods, with the lyrics of Rät by Penelope Scott"
+    "description": "Selmers from Night In The Woods, with the lyrics of Rät by Penelope Scott",
+    "best": true
   },
   {
     "title": "Hierophant",
     "date": "2020/10/10",
     "path": "tarot_collab_hierophantx4.png",
-    "description": "Hierophant for the Pixel Palace tarot collab I helmed"
+    "description": "Hierophant for the Pixel Palace tarot collab I helmed",
+    "best": true
   },
   {
     "title": "Wavy",
     "date": "2020/10/12",
     "path": "wavyx4.png",
-    "description": "Portrait, twitter commission for @wavyroosterlady"
+    "description": "Portrait, twitter commission for @wavyroosterlady",
+    "best": true
   },
   {
     "title": "Schmental",
     "date": "2020/10/04",
     "path": "schmentalx4.png",
-    "description": "Portrait twitter gift for @schmental, a hawaiian girl"
+    "description": "Portrait twitter gift for @schmental, a hawaiian girl",
+    "best": true
   },
   {
     "title": "Habitual Ritual",
     "date": "2020/09/21",
     "path": "portalx4.png",
-    "description": "Portal for the Pixel Palace portal collab. Inspired by the view from a friends' house in Gràcia, Barcelona"
+    "description": "Portal for the Pixel Palace portal collab. Inspired by the view from a friends' house in Gràcia, Barcelona",
+    "best": true
   },
   {
     "title": "Medusa & gargoyle gfs",
     "date": "2020/09/5",
     "path": "gargoyle.png",
-    "description": "Draw this in your style with @Beebeediboop's OCs"
+    "description": "Draw this in your style with @Beebeediboop's OCs",
+    "best": true
   },
   {
     "title": "Lilou",
     "date": "2020/08/17",
     "path": "lilou.png",
-    "description": "Portrait gift for @lilou_cormic"
+    "description": "Portrait gift for @lilou_cormic",
+    "best": true
 
   },
   {
     "title": "Red Calcifer",
     "date": "2020/08/05",
     "path": "calciferx4.png",
-    "description": "Portrait gift for @red_calcifer"
+    "description": "Portrait gift for @red_calcifer",
+    "best": true
   },
   {
     "title": "Kiki",
     "date": "2020/08/02",
     "path": "kikix4.png",
-    "description": "Kiki's delivery service fanart"
+    "description": "Kiki's delivery service fanart",
+    "best": true
   },
   {
     "title": "Undyne",
     "date": "2020/08/02",
     "path": "undynev1.png",
-    "description": "Undyne Undertale"
+    "description": "Undyne Undertale",
+    "best": true
   },
   {
     "title": "Pastures",
     "date": "2020/07/23",
     "path": "pasturesx4.png",
-    "description": "#justAddCharacter with background by @theartistjulian"
+    "description": "#justAddCharacter with background by @theartistjulian",
+    "best": true
   },
   {
     "title": "Gobbu RPG mockup",
@@ -112,13 +127,15 @@
     "title": "Nature Spirit Owl",
     "date": "2020/07/04",
     "path": "owl_square.png",
-    "description": "8 bits to infinity art challenge"
+    "description": "8 bits to infinity art challenge",
+    "best": true
   },
   {
     "title": "Basingse",
     "date": "2020/07/03",
     "path": "Basingse.png",
-    "description": "8 bits to infinity art challenge"
+    "description": "8 bits to infinity art challenge",
+    "best": true
   },
   {
     "title": "Gobbo",
@@ -160,7 +177,8 @@
     "title": "Fireball card",
     "date": "2020/02/25",
     "path": "fireball_card_42.png",
-    "description": "Community challenge for the KS game Dungeon Drafters"
+    "description": "Community challenge for the KS game Dungeon Drafters",
+    "best": true
   },
   {
     "title": "Everything that crawls and weaves",
@@ -172,7 +190,8 @@
     "title": "Treebear",
     "date": "2020/01/28",
     "path": "Treebear.png",
-    "description": "Pixel dailies with theme 'hybrid'"
+    "description": "Pixel dailies with theme 'hybrid'",
+    "best": true
   },
   {
     "title": "Race",
@@ -184,7 +203,8 @@
     "title": "Tonberry",
     "date": "2020/01/25",
     "path": "Tonberry.png",
-    "description": "Pixel dailies with theme 'lantern'"
+    "description": "Pixel dailies with theme 'lantern'",
+    "best": true
   },
   {
     "title": "Sphinx",
@@ -200,12 +220,14 @@
   {
     "title": "Twitter header",
     "date": "2020/01/11",
-    "path": "TwitterBanner.png"
+    "path": "TwitterBanner.png",
+    "best": true
   },
   {
     "title": "Space buddies",
     "date": "2019/12/30",
-    "path": "SpaceBuddies.png"
+    "path": "SpaceBuddies.png",
+    "best": true
   },
   {
     "title": "Lyre",
@@ -215,7 +237,8 @@
   {
     "title": "Pixel Poker Deck",
     "date": "2019/12/21",
-    "path": "Cards.png"
+    "path": "Cards.png",
+    "best": true
   },
   {
     "title": "Silas, dragonborn monk",
@@ -225,7 +248,8 @@
   {
     "title": "Kat",
     "date": "2019/08/12",
-    "path": "Kat.jpg"
+    "path": "Kat.jpg",
+    "best": true
   },
   {
     "title": "Caduceus Clay",
@@ -236,13 +260,15 @@
   {
     "title": "Tarot deck",
     "date": "2019/08/07",
-    "path": "tarot.png"
+    "path": "tarot.png",
+    "best": true
   },
   {
     "title": "Maddie",
     "date": "2019/07/27",
     "path": "Maddie.png",
-    "description": "Madeleine from Celeste"
+    "description": "Madeleine from Celeste",
+    "best": true
   },
   {
     "title": "The curse of the iron mask",
@@ -253,7 +279,8 @@
     "title": "Jester",
     "date": "2019/07/20",
     "path": "jester.gif",
-    "description": "Critical Role character by Laura Bailey"
+    "description": "Critical Role character by Laura Bailey",
+    "best": true
   },
   {
     "title": "Nott swamp RPG",
