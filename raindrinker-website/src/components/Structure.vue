@@ -1,7 +1,7 @@
 <template>
     <div class="structure">
         <div class="sidebar">
-        <RainWrapper>
+        <RainWrapper class="rain-wrap">
 
             <div class="logo-wrapper">
                 <img src="../assets/logo_transparentx10.png" class="logo"/>
@@ -9,10 +9,16 @@
 
             <div class="menu">
                 <div class="menu-option">
-                    <router-link to="/main" class="menu-option-text">
-                        MAIN
+                    <router-link to="/about" class="menu-option-text">
+                        ABOUT
                     </router-link>
                 </div>
+                <div class="menu-option">
+                    <router-link to="/cv" class="menu-option-text">
+                        RESUME
+                    </router-link>
+                </div>
+                <div class="hline"></div>
                 <div class="menu-option">
                     <router-link to="/games" class="menu-option-text">
                         GAMES
@@ -23,7 +29,18 @@
                         ART
                     </router-link>
                 </div>
+                <div class="menu-option">
+                    <router-link to="/articles" class="menu-option-text">
+                        ARTICLES
+                    </router-link>
+                </div>
+
+
             </div>
+
+            <Socials class="socials"/>
+
+
         </RainWrapper>
             </div>
 
@@ -37,9 +54,10 @@
 
 <script>
     import RainWrapper from "./RainWrapper";
+    import Socials from "./Socials";
     export default {
         name: "Structure",
-        components: {RainWrapper}
+        components: {Socials, RainWrapper}
     }
 </script>
 
@@ -124,5 +142,23 @@
         transform: translateY(100px);
     }
 
+    .hline {
+        border-bottom: 3px solid gray;
+        opacity: 0.5;
+        width: 100px;
+        margin-top: 48px;
+        margin-bottom: 16px;
+    }
+
+    .socials {
+        margin-top: auto;
+        margin-bottom: 32px;
+    }
+
+    .rain-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
 </style>

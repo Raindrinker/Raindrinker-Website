@@ -5,7 +5,7 @@ import VueCarousel from 'vue-carousel';
 
 import {VueMasonryPlugin} from 'vue-masonry';
 import Gallery from "./components/Gallery";
-import Main from "./components/Main";
+import About from "./components/About";
 import Games from "./components/Games";
 
 Vue.config.productionTip = false;
@@ -19,9 +19,11 @@ Vue.use(VueCarousel);
 const router = new VueRouter({
   base: __dirname,
   routes: [
-    { path: '/main', name: 'Main', component: Main },
+    { path: '/about', name: 'About', component: About },
     { path: '/games', name: 'Games', component: Games },
-    { path: '/gallery', name: 'Gallery', component: Gallery }
+    { path: '/gallery', name: 'Gallery', component: Gallery },
+    { path: '*', redirect: '/about' },
+
   ]
 });
 

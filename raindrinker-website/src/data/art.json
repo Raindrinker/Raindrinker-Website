@@ -1,7 +1,14 @@
 [
   {
+    "title": "Selene",
+    "date": "2020/11/28",
+    "path": "selene.png",
+    "description": "A portrait for a friend",
+    "best": true
+  },
+  {
     "title": "1-bit self portrait",
-    "date": "2020/11/04",
+    "date": "2020/11/25",
     "path": "1bitselfportrait.gif",
     "description": "Inspired by @JiskeyJaskey's art",
     "best": true
