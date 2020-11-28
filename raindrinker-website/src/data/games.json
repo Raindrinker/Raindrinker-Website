@@ -1,6 +1,7 @@
 [
   {
     "title": "Moonlight",
+    "link": "https://raindrinker.itch.io/moonlight",
     "date": "2018/02/25",
     "image": "moonlight1.png",
     "screenshots": [],
@@ -11,6 +12,7 @@
   },
   {
     "title": "RetroRift",
+    "link": "https://freezedice.itch.io/retrorift",
     "date": "2020/08/08",
     "image": "retrorift.png",
     "screenshots": [],
@@ -22,6 +24,7 @@
   },
   {
     "title": "Constellations",
+    "link": "https://raindrinker.itch.io/constellations",
     "date": "2020/05/17",
     "image": "constellations.png",
     "screenshots": [],

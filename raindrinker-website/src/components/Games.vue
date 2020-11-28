@@ -4,7 +4,7 @@
             GAMES
         </div>
 
-        <div class="card" v-for="(game, index) in gamesData" :key="index">
+        <div class="card" v-for="(game, index) in gamesData" :key="index" @click="onClickGame(game)">
             <div class="img-wrap">
                 <img :src="getImgUrl(game.image)" class="game-img">
             </div>
@@ -72,6 +72,10 @@
                 let images = require.context('../assets/screenshots', false);
                 return images('./' + file)
             },
+            onClickGame(game) {
+                console.log(game.link);
+                window.location.href = game.link;
+            }
         }
     }
 </script>
@@ -95,6 +99,8 @@
         overflow: hidden;
         border-radius: 8px;
         margin-bottom: 32px;
+
+        cursor: pointer;
     }
 
     .example-slide {
