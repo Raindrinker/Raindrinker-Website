@@ -1,5 +1,9 @@
 <template>
     <div class="body">
+        <div class="title">
+            GAMES
+        </div>
+
         <div class="card" v-for="(game, index) in gamesData" :key="index">
             <div class="img-wrap">
                 <img :src="getImgUrl(game.image)" class="game-img">
@@ -11,6 +15,9 @@
                     </div>
                     <div class="game-genre">
                         {{game.genre}}
+                    </div>
+                    <div class="game-date">
+                        {{game.date}}
                     </div>
                     <div class="game-team">
                         <b>Team:</b> {{game.team}}
@@ -148,11 +155,21 @@
 
     .game-genre {
         color: #666666;
+    }
+    .game-date {
+        color: #666666;
         margin-bottom: 16px;
     }
 
     .game-team {
         margin-top: auto;
+    }
+
+    .title {
+        font-family: Nunito, sans-serif;
+        padding-bottom: 32px;
+        font-size: 32px;
+
     }
 
 

@@ -1,5 +1,8 @@
 <template>
     <div class="wrap">
+        <div class="page-title">
+            ART
+        </div>
         <div v-masonry transition-duration="0.2s" item-selector=".item" class="gallery" id="masonryId">
             <div v-masonry-tile class="item" v-for="(item, index) in bestArtData" :key="index">
                 <div class="block">
@@ -168,6 +171,14 @@
     .title {
         font-weight: bold;
         padding-bottom: 12px;
+    }
+
+    .page-title {
+        font-family: Nunito, sans-serif;
+        padding: 32px;
+        padding-bottom: 0;
+        font-size: 32px;
+
     }
 
     @media only screen and (max-width: 1000px) {
