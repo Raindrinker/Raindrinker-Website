@@ -1,0 +1,42 @@
+[
+  {
+    "title": "E.B.O.N.Y.",
+    "link": "https://game-curator.com/indie/e-b-o-n-y/",
+    "date": "2020/09/16",
+    "image": "https://game-curator.com/wp-content/uploads/2020/09/E_B_O_N_Y.png",
+    "genre": "Game recommendation",
+    "description": "Article about an old obscure web riddle game, 'E.B.O.N.Y.' by Aneninen, written for game-curator.com"
+  },
+  {
+    "title": "There Was The Moon",
+    "link": "https://game-curator.com/indie/there-was-the-moon-2/",
+    "date": "2020/09/05",
+    "image": "https://game-curator.com/wp-content/uploads/2020/08/There_Was_the_Moon_3N1cn2q51A.png",
+    "genre": "Game review",
+    "description": "Review of the poetic indie game 'There Was The Moon' by Ben Lapid, written for game-curator.com. Game key gifted."
+  },
+  {
+    "title": "Outer Wilds",
+    "link": "https://game-curator.com/indie/outer-wilds/",
+    "date": "2020/08/09",
+    "image": "https://game-curator.com/wp-content/uploads/2020/08/OuterWilds_iJ1PJ443MQ.jpg",
+    "genre": "Game recommendation",
+    "description": "Article about the game 'Outer Wilds' by Mobius Digital, written for game-curator.com"
+  },
+  {
+    "title": "Return of the Obra Dinn",
+    "link": "https://game-curator.com/indie/return-of-the-obra-dinn/",
+    "date": "2020/07/30",
+    "image": "https://game-curator.com/wp-content/uploads/2020/03/Return_of_the_Obra_Dinn.png",
+    "genre": "Game recommendation",
+    "description": "Article about the game 'Return of the Obra Dinn' by Lucas Pope, written for game-curator.com."
+  },
+  {
+    "title": "Sprite stacking in Godot",
+    "link": "https://www.davidepesce.com/2020/06/26/sprite-stacking-in-godot/",
+    "date": "2020/07/30",
+    "image": "https://www.davidepesce.com/wp-content/uploads/2020/06/sprite_stacking_1_ship.gif",
+    "genre": "Programming tutorial",
+    "description": "Paid tutorial about how to do sprite stacking in Godot Engine written for davidepesce.com"
+  }
+]

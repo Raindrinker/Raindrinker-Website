@@ -7,6 +7,7 @@ import {VueMasonryPlugin} from 'vue-masonry';
 import Gallery from "./components/Gallery";
 import About from "./components/About";
 import Games from "./components/Games";
+import Articles from "./components/Articles";
 
 Vue.config.productionTip = false;
 
@@ -22,6 +23,7 @@ const router = new VueRouter({
     { path: '/about', name: 'About', component: About },
     { path: '/games', name: 'Games', component: Games },
     { path: '/art', name: 'Art', component: Gallery },
+    { path: '/articles', name: 'Articles', component: Articles },
     { path: '*', redirect: '/about' },
 
   ]
