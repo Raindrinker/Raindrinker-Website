@@ -8,6 +8,7 @@ import Gallery from "./components/Gallery";
 import About from "./components/About";
 import Games from "./components/Games";
 import Articles from "./components/Articles";
+import Resume from "./components/Resume";
 
 Vue.config.productionTip = false;
 
@@ -21,6 +22,7 @@ const router = new VueRouter({
   base: __dirname,
   routes: [
     { path: '/about', name: 'About', component: About },
+    { path: '/resume', name: 'Resume', component: Resume },
     { path: '/games', name: 'Games', component: Games },
     { path: '/art', name: 'Art', component: Gallery },
     { path: '/articles', name: 'Articles', component: Articles },

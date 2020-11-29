@@ -14,7 +14,7 @@
                     </router-link>
                 </div>
                 <div class="menu-option">
-                    <router-link to="/cv" class="menu-option-text">
+                    <router-link to="/resume" class="menu-option-text">
                         RESUME
                     </router-link>
                 </div>

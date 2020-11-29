@@ -7,6 +7,9 @@
         <div class="cards">
             <div class="card" v-for="(article, index) in articlesData" :key="index" @click="onClickArticle(article)">
                 <div class="article-body">
+                    <div class="article-genre">
+                        {{article.genre}}
+                    </div>
                     <div class="article-title">
                         {{article.title}}
                     </div>
@@ -18,13 +21,7 @@
                     <img :src="article.image" class="article-img">
                 </div>
                 <div class="article-body">
-                    <div class="article-body-1">
-
-                        <div class="article-genre">
-                            {{article.genre}}
-                        </div>
-                    </div>
-                    <div class="article-body-2" v-html="article.description">
+                    <div v-html="article.description">
                     </div>
                 </div>
             </div>
@@ -83,11 +80,17 @@
         box-shadow: 0px 5px 2px 0px rgba(0, 0, 0, 0.25);
 
         overflow: hidden;
+
+        cursor: pointer;
     }
 
     .img-wrap {
         overflow: hidden;
         height: 300px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .article-body {
@@ -105,6 +108,10 @@
         padding-bottom: 32px;
         font-size: 32px;
 
+    }
+
+    .article-genre {
+        color: #888888;
     }
 
 </style>
