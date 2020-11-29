@@ -77,7 +77,7 @@
             return {
                 things: ["Games made with care",
                     "Bold, innovative game design",
-                    "Indie music, especially in catalan & spanish",
+                    "Indie songs, especially in catalan & spanish",
                     "Playing the ukulele terribly",
                     "Critical Role, The Magnus Archives",
                     "Following the development of indie games on twitter",
@@ -157,10 +157,13 @@
     .game {
         width: 30%;
         position: relative;
-        padding: 8px;
+        padding: 12px;
+        display: flex;
+        justify-content: center;
     }
 
     .game-img {
+        height: 200px;
         width: 100%;
     }
 
