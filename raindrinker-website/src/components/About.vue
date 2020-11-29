@@ -32,6 +32,26 @@
 
             </div>
 
+            <div class="title">THINGS I MADE</div>
+
+            <div class="things">
+                <div class="my-thing" @click="$router.push('/games')">
+                    <img src="../assets/games.png" class="my-thing-img"/>
+                    <div class="shadow"></div>
+                    <div class="my-thing-text">Games</div>
+                </div>
+                <div class="my-thing" @click="$router.push('/art')">
+                    <img src="../assets/pixelart.png" class="my-thing-img"/>
+                    <div class="shadow"></div>
+                    <div class="my-thing-text">Art</div>
+                </div>
+                <div class="my-thing" @click="$router.push('/articles')">
+                    <img src="../assets/articles.png" class="my-thing-img"/>
+                    <div class="shadow"></div>
+                    <div class="my-thing-text">Articles</div>
+                </div>
+            </div>
+
             <div class="title">THINGS I LIKE</div>
 
             <div class="things">
@@ -103,7 +123,7 @@
 
         align-items: center;
 
-        margin-top: 64px;
+        margin-top: 48px;
 
         width: 80%;
     }
@@ -118,7 +138,9 @@
         align-items: center;
         padding: 32px;
         flex-direction: column;
-        margin-bottom: 64px;
+        padding-bottom: 128px;
+
+        overflow-y: auto;
     }
 
     .socials {
@@ -165,6 +187,52 @@
     .game-img {
         height: 200px;
         width: 100%;
+        border-radius: 8px;
+    }
+
+    .my-thing {
+        width: 30%;
+        margin: 16px;
+        flex-basis: 30%;
+        flex-shrink: 0;
+        flex-grow: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        cursor: pointer;
+
+        flex-direction: column;
+    }
+
+    .my-thing-text {
+        pointer-events: none;
+        transition: 0.2s;
+        font-size: 24px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    .shadow {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        opacity: 0;
+        transition: 0.2s;
+    }
+
+    .shadow:hover {
+        opacity: 0.1;
+    }
+
+    .my-thing:hover .my-thing-text {
+        opacity: 1;
+    }
+
+    .my-thing-img {
+        width: 100%;
+        border-radius: 8px;
     }
 
 </style>

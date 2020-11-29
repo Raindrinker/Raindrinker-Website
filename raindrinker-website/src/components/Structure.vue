@@ -25,7 +25,7 @@
                     </router-link>
                 </div>
                 <div class="menu-option">
-                    <router-link to="/gallery" class="menu-option-text">
+                    <router-link to="/art" class="menu-option-text">
                         ART
                     </router-link>
                 </div>
@@ -79,8 +79,12 @@
 
     .content {
         flex-grow: 1;
-        overflow-y: scroll;
+        overflow-y: hidden;
         background-color: #EEEEEE;
+
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
     }
 
     .logo-wrapper {

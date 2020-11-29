@@ -21,7 +21,7 @@ const router = new VueRouter({
   routes: [
     { path: '/about', name: 'About', component: About },
     { path: '/games', name: 'Games', component: Games },
-    { path: '/gallery', name: 'Gallery', component: Gallery },
+    { path: '/art', name: 'Art', component: Gallery },
     { path: '*', redirect: '/about' },
 
   ]

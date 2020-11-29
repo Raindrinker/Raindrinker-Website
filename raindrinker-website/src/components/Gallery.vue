@@ -3,7 +3,7 @@
         <div class="page-title">
             ART
         </div>
-        <div v-masonry transition-duration="0.2s" item-selector=".item" class="gallery" id="masonryId">
+        <div v-masonry transition-duration="0s" item-selector=".item" class="gallery" id="masonryId">
             <div v-masonry-tile class="item" v-for="(item, index) in bestArtData" :key="index">
                 <div class="block">
                     <div class="img-wrap">
@@ -79,13 +79,19 @@
 
 <style scoped>
 
+    .wrap {
+        overflow-y: auto;
+    }
+
     .gallery {
         margin: 16px;
         display: flex;
+
     }
 
     .block {
         padding: 16px;
+
     }
 
     .image {

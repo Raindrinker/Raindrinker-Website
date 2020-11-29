@@ -85,6 +85,8 @@
         padding: 32px;
         display: flex;
         flex-direction: column;
+
+        overflow-y: auto;
     }
 
     .card {
@@ -101,6 +103,8 @@
         margin-bottom: 32px;
 
         cursor: pointer;
+
+        flex-shrink: 0;
     }
 
     .example-slide {
