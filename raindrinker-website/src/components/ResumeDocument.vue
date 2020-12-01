@@ -45,13 +45,13 @@
             </div>
 
             <div class="leftpad">
-                Game Design of big tycoon games including:
+                Unannounced projects:
                 <ul>
                     <li>Designing mechanics and systems
                     </li>
                     <li>Prototyping
                     </li>
-                    <li>Producing and managing content for the games, like text, characters and items
+                    <li>Producing and managing content for the games
                     </li>
                 </ul>
             </div>
