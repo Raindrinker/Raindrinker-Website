@@ -2,6 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
 import VueCarousel from 'vue-carousel';
+import VueAnalytics from 'vue-analytics'
 
 import {VueMasonryPlugin} from 'vue-masonry';
 import Gallery from "./components/Gallery";
@@ -17,6 +18,10 @@ Vue.use(VueMasonryPlugin);
 Vue.use(VueRouter);
 
 Vue.use(VueCarousel);
+
+Vue.use(VueAnalytics, {
+  id: 'G-EN78TKYG60'
+});
 
 const router = new VueRouter({
   base: __dirname,
