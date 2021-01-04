@@ -1,5 +1,19 @@
 [
   {
+    "title": "Nonagon",
+    "date": "2020/12/20",
+    "path": "nonagon.png",
+    "description": "Critical Role fanart",
+    "best": false
+  },
+  {
+    "title": "Videogame Girls",
+    "date": "2020/12/10",
+    "path": "videogamegirls.png",
+    "description": "A collab with @111Artificer and @PixelsSj from the Pixel Palace discord",
+    "best": true
+  },
+  {
     "title": "Selene",
     "date": "2020/11/28",
     "path": "selene.png",

@@ -41,7 +41,7 @@
                 Game Designer at Abylight
             </div>
             <div class="date">
-                2020-...
+                2020-2020
             </div>
 
             <div class="leftpad">
