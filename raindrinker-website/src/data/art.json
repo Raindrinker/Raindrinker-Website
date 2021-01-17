@@ -1,5 +1,19 @@
 [
   {
+    "title": "Frank & Drake",
+    "date": "2021/01/16",
+    "path": "frankanddrake.png",
+    "description": "Fanart for in-development videogame by @Appnormals",
+    "best": true
+  },
+  {
+    "title": "JV",
+    "date": "2021/01/13",
+    "path": "jv.png",
+    "description": "Portrait for an artist",
+    "best": true
+  },
+  {
     "title": "Nonagon",
     "date": "2020/12/20",
     "path": "nonagon.png",
