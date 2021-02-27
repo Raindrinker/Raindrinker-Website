@@ -1,5 +1,19 @@
 [
   {
+    "title": "Zealous Colossus",
+    "date": "2021/02/26",
+    "path": "zealouscolossus.png",
+    "description": "MTG version of the 1-bit colossus",
+    "best": true
+  },
+  {
+    "title": "1-bit colossus",
+    "date": "2021/02/26",
+    "path": "1bitcolossus.png",
+    "description": "For pixtogetherevent 10, inspired by @JiskeyJasket",
+    "best": true
+  },
+  {
     "title": "Frank & Drake",
     "date": "2021/01/16",
     "path": "frankanddrake.png",

@@ -38,6 +38,25 @@
         <div class="leftpad">
 
             <div class="title3">
+                Game Designer & Pixel Artist at Appnormals
+            </div>
+            <div class="date">
+                2021-...
+            </div>
+
+            <div class="leftpad">
+                Generalist in a small indie studio working on studio's original titles, Frank&Drake abd Terracotta.
+                <ul>
+                    <li>Design and QA for both games
+                    </li>
+                    <li>Pixel art for Terracotta
+                    </li>
+                    <li>Game development in Unity
+                    </li>
+                </ul>
+            </div>
+
+            <div class="title3">
                 Game Designer at Abylight
             </div>
             <div class="date">
@@ -45,7 +64,7 @@
             </div>
 
             <div class="leftpad">
-                Unannounced projects:
+                Work on Prison Tycoon and other unannounced projects:
                 <ul>
                     <li>Designing mechanics and systems
                     </li>
