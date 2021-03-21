@@ -1,5 +1,33 @@
 [
   {
+    "title": "Glitch City",
+    "date": "2021/03/21",
+    "path": "travel_glitch.png",
+    "description": "Travel poster for Glitch City, from VA-11 HALL-A",
+    "best": true
+  },
+  {
+    "title": "Possum Springs",
+    "date": "2021/03/21",
+    "path": "travel_nitw.png",
+    "description": "Travel poster for Possum Springs, from Night In The Woods",
+    "best": true
+  },
+  {
+    "title": "Dirtmouth",
+    "date": "2021/03/20",
+    "path": "travel_dirtmouth.png",
+    "description": "Travel poster for Dirtmouth, from Hollow Knight",
+    "best": true
+  },
+  {
+    "title": "Celeste Mountain",
+    "date": "2021/03/20",
+    "path": "travel_celeste.png",
+    "description": "Travel poster for Celeste Mountain, from Celeste",
+    "best": true
+  },
+  {
     "title": "Exegg*cute*",
     "date": "2021/03/15",
     "path": "exeggcute.png",
