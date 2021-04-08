@@ -1,5 +1,75 @@
 [
   {
+    "title": "Frendcube",
+    "date": "2021/04/05",
+    "path": "rubik.png",
+    "description": "Design for a custom 2x2 puzzle cube",
+    "best": true
+  },
+  {
+    "title": "Ode to a new perspective",
+    "date": "2021/04/05",
+    "path": "poster_fez.png",
+    "description": "Fez megaposter, commission for @KnavishCrayfish",
+    "best": true
+  },
+  {
+    "title": "Suits poker deck",
+    "date": "2021/03/28",
+    "path": "suits.png",
+    "description": "Card back and title, vectorised",
+    "best": true
+  },
+  {
+    "title": "Spades",
+    "date": "2021/03/28",
+    "path": "Spades.png",
+    "description": "Spades for the Suits card deck",
+    "best": true
+  },
+  {
+    "title": "Diamonds",
+    "date": "2021/03/28",
+    "path": "Diamonds.png",
+    "description": "Diamonds for the Suits card deck",
+    "best": true
+  },
+  {
+    "title": "Clubs",
+    "date": "2021/03/28",
+    "path": "Clubs.png",
+    "description": "Clubs for the Suits card deck",
+    "best": true
+  },
+  {
+    "title": "Hearts",
+    "date": "2021/03/28",
+    "path": "Hearts.png",
+    "description": "Hearts for the Suits card deck",
+    "best": true
+  },
+  {
+    "title": "The Downside",
+    "date": "2021/03/25",
+    "path": "travel_downside.png",
+    "description": "Travel poster for The Downside, from Pyre",
+    "best": true
+  },
+  {
+    "title": "Firelink Shrine",
+    "date": "2021/03/25",
+    "path": "travel_firelink.png",
+    "description": "Travel poster for Firelink Shrine, from Dark Souls",
+    "best": true
+  },
+  {
+    "title": "Rock Lee",
+    "date": "2021/03/24",
+    "path": "rocklee.png",
+    "description": "Commission for @umana_luis",
+    "best": true
+  },
+  {
     "title": "Glitch City",
     "date": "2021/03/21",
     "path": "travel_glitch.png",
