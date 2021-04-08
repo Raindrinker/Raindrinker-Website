@@ -22,15 +22,15 @@ export default {
 
 <style>
 
-  body {
+  html, body {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    overflow-x: hidden;
   }
 
   #app {
-    width: 100vw;
-    height: 100vh;
+   overflow-x: hidden;
   }
 
   @font-face {

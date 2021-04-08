@@ -65,6 +65,9 @@
     .structure {
         display: flex;
         flex-direction: row;
+        overflow-x: hidden;
+        margin: 0px;
+        padding: 0px;
         width: 100%;
         height: 100%;
     }
@@ -81,8 +84,9 @@
         flex-grow: 1;
         overflow-y: hidden;
         background-color: #EEEEEE;
-
+        overflow-x: hidden;
         display: flex;
+        margin: 0px;
         flex-direction: column;
         height: 100vh;
     }
