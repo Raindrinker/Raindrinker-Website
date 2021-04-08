@@ -1,8 +1,8 @@
 <template>
     <div class="body">
-        <div class="profile-row">
-            <img src="../assets/photo.jpg" class="image">
-            <div class="text">
+        <div class="profile-row" :class="$mq">
+            <img src="../assets/photo.jpg" class="image" :class="$mq">
+            <div class="text" :class="$mq">
                 Hi! I'm Ferran Ruiz (Raindrinker on the internet) and I like making small interesting games that matter.
                 <br><br>
                 I'm always looking for opportunities to meet cool creative people and work on great things.
@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="content-row">
-            <div class="title">SKILLS</div>
+            <div class="title" :class="$mq">SKILLS</div>
 
             <div class="things">
 
@@ -32,27 +32,27 @@
 
             </div>
 
-            <div class="title">THINGS I MADE</div>
+            <div class="title" :class="$mq">THINGS I MADE</div>
 
-            <div class="things">
-                <div class="my-thing" @click="$router.push('/games')">
-                    <img src="../assets/games.png" class="my-thing-img"/>
+            <div class="games" :class="$mq">
+                <div class="my-thing" :class="$mq" @click="$router.push('/games')">
+                    <img src="../assets/games.png" class="my-thing-img" :class="$mq"/>
                     <div class="shadow"></div>
                     <div class="my-thing-text">Games</div>
                 </div>
-                <div class="my-thing" @click="$router.push('/art')">
-                    <img src="../assets/pixelart.png" class="my-thing-img"/>
+                <div class="my-thing" :class="$mq" @click="$router.push('/art')">
+                    <img src="../assets/pixelart.png" class="my-thing-img" :class="$mq"/>
                     <div class="shadow"></div>
                     <div class="my-thing-text">Art</div>
                 </div>
-                <div class="my-thing" @click="$router.push('/articles')">
-                    <img src="../assets/articles.png" class="my-thing-img"/>
+                <div class="my-thing" :class="$mq" @click="$router.push('/articles')">
+                    <img src="../assets/articles.png" class="my-thing-img" :class="$mq"/>
                     <div class="shadow"></div>
                     <div class="my-thing-text">Articles</div>
                 </div>
             </div>
 
-            <div class="title">THINGS I LIKE</div>
+            <div class="title" :class="$mq">THINGS I LIKE</div>
 
             <div class="things">
                 <div v-for="(thing, index) in things" :key="index" class="thing">
@@ -60,9 +60,9 @@
                 </div>
             </div>
 
-            <div class="title">SOME OF MY FAVOURITE GAMES</div>
+            <div class="title" :class="$mq">SOME OF MY FAVOURITE GAMES</div>
 
-            <div class="things">
+            <div class="games" :class="$mq">
                 <div class="game">
                     <img src="../assets/celeste.jpg" class="game-img"/>
                 </div>
@@ -111,49 +111,120 @@
 
 <style scoped>
 
-    .image {
-        width: 350px;
-        height: 350px;
-        border-radius: 1000px;
+    .image.mobile {
+        max-width: 80%;
+        border-radius: 50%;
+    }
+    .image.tablet {
+        max-width: 60%;
+        border-radius: 50%;
+    }
+    .image.laptop {
+        max-width: 80%;
+        border-radius: 50%;
+    }
+    .image.desktop {
+        max-width: 70%;
+        border-radius: 50%;
     }
 
-    .profile-row {
-        display: flex;
+    .profile-row.mobile {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         font-family: Nunito, sans-serif;
-
-        align-items: center;
-
+        justify-content: center;
         margin-top: 48px;
-
+        padding: 2rem;
+    }
+    .profile-row.tablet {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        font-family: Nunito, sans-serif;
+        align-items: center;
+        margin-top: 48px;
         width: 80%;
+        padding: 3rem;
+
+    }
+    .profile-row.laptop {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        font-family: Nunito, sans-serif;
+        align-items: center;
+        margin-top: 48px;
+        width: 80%;
+        padding: 3rem;
+
     }
 
-    .text {
-        font-size: 24px;
-        padding: 48px;
+    .profile-row.desktop {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        font-family: Nunito, sans-serif;
+        align-items: center;
+        margin-top: 48px;
+        width: 80%;
+        padding: 3rem;
+
+    }
+
+    .text.mobile {
+        font-size: 16px;
+        padding: 2rem;
+    }
+    .text.tablet {
+        font-size: 16px;
+        padding: 2rem;
+    }
+    .text.laptop {
+        font-size: 100%;
+        padding: 2rem;
+    }
+    .text.desktop {
+        font-size: 100%;
+        padding: 2rem;
     }
 
     .body {
-        display: flex;
         align-items: center;
-        padding: 32px;
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
         flex-direction: column;
-        padding-bottom: 128px;
+        padding-bottom: 3rem;
 
         overflow-y: auto;
+        overflow-x: auto;
     }
 
     .socials {
-        padding-top: 32px;
+        padding-top: 2rem;
         filter: invert(100%);
     }
 
     .content-row {
         width: 80%;
+        padding: 2rem;
         font-family: Nunito, sans-serif;
     }
 
-    .title {
+    .title.mobile {
+        font-size: 18px;
+        margin-top: 32px;
+        margin-bottom: 16px;
+    }
+    .title.tablet {
+        font-size: 24px;
+        margin-top: 32px;
+        margin-bottom: 16px;
+    }
+    .title.laptop {
+        font-size: 24px;
+        margin-top: 32px;
+        margin-bottom: 16px;
+    }
+    .title.desktop {
         font-size: 24px;
         margin-top: 32px;
         margin-bottom: 16px;
@@ -168,41 +239,70 @@
         flex-wrap: wrap;
     }
 
+    .games.mobile {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .games.tablet {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .games.laptop {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .games.desktop {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
     .thing {
         width: 30%;
-        padding: 16px;
+        padding: 1rem;
         flex-basis: 30%;
         flex-shrink: 0;
         flex-grow: 0;
     }
 
     .game {
-        width: 30%;
         position: relative;
-        padding: 12px;
-        display: flex;
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
         justify-content: center;
     }
 
     .game-img {
-        height: 200px;
-        width: 100%;
+        max-width: 80%;
         border-radius: 8px;
     }
 
-    .my-thing {
-        width: 30%;
-        margin: 16px;
-        flex-basis: 30%;
-        flex-shrink: 0;
-        flex-grow: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
+    .my-thing.mobile {
+        display: grid;
+        padding: 1rem;
+        grid-template-columns: 1fr;
         cursor: pointer;
-
-        flex-direction: column;
+        grid-auto-flow: row;
+    }
+    .my-thing.tablet {
+        display: grid;
+        grid-template-columns: 1fr;
+        cursor: pointer;
+        grid-auto-flow: row;
+    }
+    .my-thing.laptop {
+        display: grid;
+        padding: 1rem;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        cursor: pointer;
+        grid-auto-flow: row;
+    }
+    .my-thing.desktop {
+        display: grid;
+        padding: 1rem;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        cursor: pointer;
+        grid-auto-flow: row;
     }
 
     .my-thing-text {
@@ -230,9 +330,21 @@
         opacity: 1;
     }
 
-    .my-thing-img {
-        width: 100%;
-        border-radius: 8px;
+    .my-thing-img.mobile {
+        max-width: 80%;
+        border-radius: 6px;
+    }
+    .my-thing-img.tablet {
+        max-width: 60%;
+        border-radius: 6px;
+    }
+    .my-thing-img.laptop {
+        max-width: 80%;
+        border-radius: 6px;
+    }
+    .my-thing-img.desktop {
+        max-width: 100%;
+        border-radius: 6px;
     }
 
 </style>
