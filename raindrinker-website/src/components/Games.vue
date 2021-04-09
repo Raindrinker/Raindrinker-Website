@@ -5,10 +5,10 @@
         </div>
 
         <div class="card" v-for="(game, index) in gamesData" :key="index" @click="onClickGame(game)">
-            <div class="img-wrap">
+            <div class="img-wrap" :class="$mq">
                 <img :src="getImgUrl(game.image)" class="game-img">
             </div>
-            <div class="game-body">
+            <div class="game-body" :class="$mq">
                 <div class="game-body-1">
                     <div class="game-title">
                         {{game.title}}
@@ -117,11 +117,41 @@
         min-height: 10rem;
     }
 
-    .img-wrap {
+    .img-wrap.mobile {
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        flex-shrink: 0;
+    }
+    .img-wrap.tablet {
         overflow: hidden;
         position: relative;
         width: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
+        flex-shrink: 0;
+    }
+    .img-wrap.laptop {
+        overflow: hidden;
+        position: relative;
+        width: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        flex-shrink: 0;
+    }
+    .img-wrap.desktop {
+        overflow: hidden;
+        position: relative;
+        width: 250px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -131,9 +161,27 @@
 
     .game-img {
         height: 100%;
+        width: 100%;
     }
 
-    .game-body {
+    .game-body.mobile {
+        display: none;
+    }
+    .game-body.tablet {
+        padding: 8px;
+        padding-left: 16px;
+        font-family: Nunito, sans-serif;
+        display: flex;
+        flex-grow: 1;
+    }
+    .game-body.laptop {
+        padding: 8px;
+        padding-left: 16px;
+        font-family: Nunito, sans-serif;
+        display: flex;
+        flex-grow: 1;
+    }
+    .game-body.desktop {
         padding: 8px;
         padding-left: 16px;
         font-family: Nunito, sans-serif;
@@ -160,7 +208,7 @@
     }
 
     .game-title {
-        font-size: 32px;
+        font-size: 100%;
     }
 
     .game-genre {

@@ -5,7 +5,7 @@
         </div>
 
         <div class="cards">
-            <div class="card" v-for="(article, index) in articlesData" :key="index" @click="onClickArticle(article)">
+            <div class="card" :class="$mq" v-for="(article, index) in articlesData" :key="index" @click="onClickArticle(article)">
                 <div class="article-body">
                     <div class="article-genre">
                         {{article.genre}}
@@ -69,7 +69,49 @@
         flex-wrap: wrap;
     }
 
-    .card {
+    .card.mobile {
+        width: 100%;
+        margin: 16px;
+        background-color: white;
+        border-radius: 8px;
+
+        -webkit-box-shadow: 0px 5px 2px 0px rgba(0, 0, 0, 0.25);
+        -moz-box-shadow: 0px 5px 2px 0px rgba(0, 0, 0, 0.25);
+        box-shadow: 0px 5px 2px 0px rgba(0, 0, 0, 0.25);
+
+        overflow: hidden;
+
+        cursor: pointer;
+    }
+    .card.tablet {
+        width: 40%;
+        margin: 16px;
+        background-color: white;
+        border-radius: 8px;
+
+        -webkit-box-shadow: 0px 5px 2px 0px rgba(0, 0, 0, 0.25);
+        -moz-box-shadow: 0px 5px 2px 0px rgba(0, 0, 0, 0.25);
+        box-shadow: 0px 5px 2px 0px rgba(0, 0, 0, 0.25);
+
+        overflow: hidden;
+
+        cursor: pointer;
+    }
+    .card.laptop {
+        width: 40%;
+        margin: 16px;
+        background-color: white;
+        border-radius: 8px;
+
+        -webkit-box-shadow: 0px 5px 2px 0px rgba(0, 0, 0, 0.25);
+        -moz-box-shadow: 0px 5px 2px 0px rgba(0, 0, 0, 0.25);
+        box-shadow: 0px 5px 2px 0px rgba(0, 0, 0, 0.25);
+
+        overflow: hidden;
+
+        cursor: pointer;
+    }
+    .card.desktop {
         width: 25%;
         margin: 16px;
         background-color: white;
