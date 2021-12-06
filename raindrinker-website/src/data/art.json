@@ -1,5 +1,110 @@
 [
   {
+    "title": "Christmas Kate",
+    "date": "2021/12/01",
+    "path": "kate.png",
+    "description": "Kate O'Dyee, OC by @alisdaiross, for an art trade",
+    "best": false
+  },
+  {
+    "title": "Pâté De Rolo",
+    "date": "2021/11/29",
+    "path": "pate.jpg",
+    "description": "Pâté De Rolo Critical Role",
+    "best": true
+  },
+  {
+    "title": "Faerne Callaway",
+    "date": "2021/11/13",
+    "path": "faerne.jpg",
+    "description": "Faerne Callaway Critical Role",
+    "best": true
+  },
+  {
+    "title": "The Gendered Child",
+    "date": "2021/11/11",
+    "path": "hornet.jpg",
+    "description": "Hornet from Hollow Knight, done during digital drawing classes with @PelusaOrbital",
+    "best": true
+  },
+  {
+    "title": "Pokeymen",
+    "date": "2021/09/07",
+    "path": "pokeymen.jpg",
+    "description": "Pokeymans all together",
+    "best": true
+  },
+  {
+    "title": "Squirt",
+    "date": "2021/09/07",
+    "path": "squirt.jpg",
+    "description": "Pokeymans #3",
+    "best": true
+  },
+  {
+    "title": "Charm",
+    "date": "2021/09/06",
+    "path": "charm.jpg",
+    "description": "Pokeymans #2",
+    "best": true
+  },
+  {
+    "title": "Bulb",
+    "date": "2021/09/05",
+    "path": "bulb.jpg",
+    "description": "Pokeymans #1",
+    "best": true
+  },
+  {
+    "title": "Cherry",
+    "date": "2021/06/19",
+    "path": "cherry.png",
+    "description": "Made for a pixel daily. Failed cause it ahd a size restriction I ignored.",
+    "best": true
+  },
+  {
+    "title": "Burnt book",
+    "date": "2021/06/17",
+    "path": "burnt_book.png",
+    "description": "Inspired by Caleb Widogast Critical Role",
+    "best": true
+  },
+  {
+    "title": "Megahammer pixel logo & font",
+    "date": "2021/06/15",
+    "path": "megahammer_logo.png",
+    "description": "Design work for Megahammer Studios",
+    "best": true
+  },
+  {
+    "title": "Soft tea",
+    "date": "2021/06/14",
+    "path": "soft_tea.png",
+    "description": "Inspired by Caduceus Critical Role",
+    "best": true
+  },
+  {
+    "title": "Parasocial pixel portrait #2",
+    "date": "2021/05/29",
+    "path": "parasocial2.png",
+    "description": "portrait of Alok, Dr. K",
+    "best": true
+  },
+  {
+    "title": "Parasocial pixel portrait #1",
+    "date": "2021/05/23",
+    "path": "parasocial.png",
+    "description": "portrait of Northernlion",
+    "best": true
+  },
+  {
+    "title": "Swamp mermaids",
+    "date": "2021/05/08",
+    "path": "swamp_mermaids.png",
+    "description": "Attempt at mermay. This was day 2",
+    "best": true
+  },
+  {
     "title": "Frendcube",
     "date": "2021/04/05",
     "path": "rubik.png",

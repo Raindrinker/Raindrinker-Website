@@ -45,7 +45,7 @@
             </div>
 
             <div class="leftpad">
-                Generalist in a small indie studio working on studio's original titles, Frank&Drake abd Terracotta.
+                Generalist in a small indie studio working on studio's original titles, Frank&Drake and Terracotta.
                 <ul>
                     <li>Design and QA for both games
                     </li>
