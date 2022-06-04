@@ -89,9 +89,9 @@
 </template>
 
 <script>
-    import Socials from "./Socials";
+    import Socials from "./SocialsIcons";
     export default {
-        name: "About",
+        name: "AboutPage",
         components: {Socials},
         data() {
             return {

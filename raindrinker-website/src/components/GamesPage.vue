@@ -1,10 +1,44 @@
 <template>
     <div class="body">
         <div class="title">
-            GAMES
+          PUBLISHED GAMES
         </div>
 
-        <div class="card" v-for="(game, index) in gamesData" :key="index" @click="onClickGame(game)">
+      <div class="card" v-for="(game, index) in gamesData" :key="index" @click="onClickGame(game)">
+        <div class="img-wrap" :class="$mq">
+          <img :src="getImgUrl(game.image)" class="game-img">
+        </div>
+        <div class="game-body" :class="$mq">
+          <div class="game-body-1">
+            <div class="game-title">
+              {{game.title}}
+            </div>
+            <div class="game-genre">
+              {{game.genre}}
+            </div>
+            <div class="game-date">
+              {{game.date}}
+            </div>
+            <div class="game-team">
+              <b>Team:</b> {{game.team}}
+            </div>
+            <div class="game-role" v-if="game.team !== 'Solo'">
+              <b>Role:</b> {{game.role}}
+            </div>
+            <div class="game-tools">
+              <b>Tools:</b> {{game.tools}}
+            </div>
+          </div>
+          <div class="game-body-2" v-html="game.description">
+          </div>
+        </div>
+      </div>
+
+        <div class="title">
+            SMALL PROJECTS
+        </div>
+
+        <div class="card" v-for="(game, index) in gamejamGamesData" :key="index" @click="onClickGame(game)">
             <div class="img-wrap" :class="$mq">
                 <img :src="getImgUrl(game.image)" class="game-img">
             </div>
@@ -22,7 +56,7 @@
                     <div class="game-team">
                         <b>Team:</b> {{game.team}}
                     </div>
-                    <div class="game-role" v-if="game.team !== 'Solo'">
+                    <div class="game-role" v-if="game.role !== ''">
                         <b>Role:</b> {{game.role}}
                     </div>
                     <div class="game-tools">
@@ -38,8 +72,9 @@
 
 <script>
     import GamesData from "../data/games";
+    import GamejamGamesData from "../data/gamejam_games";
     export default {
-        name: "Games",
+        name: "GamesPage",
         data() {
             return {
                 data: [
@@ -60,7 +95,18 @@
                     }
                     return 0;
                 });
-            }
+            },
+          gamejamGamesData() {
+            return GamejamGamesData.sort((a, b) => {
+              if (a.date < b.date) {
+                return 1;
+              }
+              if (a.date > b.date) {
+                return -1;
+              }
+              return 0;
+            });
+          }
         },
         methods: {
             getImages(game) {

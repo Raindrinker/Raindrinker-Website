@@ -31,6 +31,28 @@
         </div>
 
         <div class="title2-row">
+          <div class="icon">videogame_asset</div>
+          Published games
+        </div>
+
+      <div class="leftpad">
+
+        <div class="title3">
+          Constellations: Puzzles in the Sky
+        </div>
+        <div class="date">
+          2022-05-25
+        </div>
+
+        <div class="leftpad">
+          Minimalist puzzle game about connecting numbered stars, published on Steam.
+          <br>
+          Slowly developed in a 2-person team (Icedrop Games) during non-work hours.
+        </div>
+
+      </div>
+
+        <div class="title2-row">
             <div class="icon">games</div>
             Gamedev experience
         </div>

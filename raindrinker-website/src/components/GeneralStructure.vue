@@ -54,9 +54,9 @@
 
 <script>
     import RainWrapper from "./RainWrapper";
-    import Socials from "./Socials";
+    import Socials from "./SocialsIcons";
     export default {
-        name: "Structure",
+        name: "GeneralStructure",
         components: {Socials, RainWrapper}
     }
 </script>

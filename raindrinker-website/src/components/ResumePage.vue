@@ -7,7 +7,7 @@
 <script>
     import ResumeDocument from "./ResumeDocument";
     export default {
-        name: "Resume",
+        name: "ResumePage",
         components: {ResumeDocument}
     }
 </script>

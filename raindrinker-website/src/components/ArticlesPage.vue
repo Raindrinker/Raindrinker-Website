@@ -32,7 +32,7 @@
 <script>
     import ArticlesData from "../data/articles";
     export default {
-        name: "Articles",
+        name: "ArticlesPage",
         computed: {
             articlesData() {
                 return ArticlesData.sort((a, b) => {

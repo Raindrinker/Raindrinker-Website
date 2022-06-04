@@ -19,7 +19,7 @@
 
 <script>
     export default {
-        name: "Socials"
+        name: "SocialsIcons"
     }
 </script>
 

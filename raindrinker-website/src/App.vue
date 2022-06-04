@@ -6,7 +6,7 @@
 
 <script>
 
-import Structure from "./components/Structure";
+import Structure from "./components/GeneralStructure";
 export default {
   name: 'App',
   components: {

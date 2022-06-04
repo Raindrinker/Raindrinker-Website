@@ -41,7 +41,7 @@
     import ArtData from "../data/art";
 
     export default {
-        name: "Gallery",
+        name: "GalleryPage",
         data() {
             return {
                 artData: [],

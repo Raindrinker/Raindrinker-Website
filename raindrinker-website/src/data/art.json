@@ -1,5 +1,110 @@
 [
   {
+    "title": "Ansitru Tarot",
+    "date": "2022/03/26",
+    "path": "potboys.png",
+    "description": "Elden Ring fanart",
+    "best": true
+  },
+  {
+    "title": "Ansitru Tarot",
+    "date": "2022/02/19",
+    "path": "astridtarot.png",
+    "description": "Pixeled a tarot reading for an art trade with Ansitru",
+    "best": true
+  },
+  {
+    "title": "Chess pieces",
+    "date": "2022/02/07",
+    "path": "pieces.jpg",
+    "description": "Made for Hairic's paper mini jam",
+    "best": true
+  },
+  {
+    "title": "Inky Cap",
+    "date": "2022/02/05",
+    "path": "inkycap.jpg",
+    "description": "First week of Funguary",
+    "best": true
+  },
+  {
+    "title": "Monarch",
+    "date": "2022/01/31",
+    "path": "monarch.gif",
+    "description": "Animated bug",
+    "best": true
+  },
+  {
+    "title": "Agatha Christie Lady",
+    "date": "2022/01/30",
+    "path": "christie.png",
+    "description": "An attempt at Loop Hero's (Deciever) style",
+    "best": false
+  },
+  {
+    "title": "Hollow Knight Facetime",
+    "date": "2022/01/27",
+    "path": "facetime.jpg",
+    "description": "Waiting for Silksong",
+    "best": true
+  },
+  {
+    "title": "Funky Mage",
+    "date": "2022/01/26",
+    "path": "funkymage.jpg",
+    "description": "DTIYS of a PanelPerDay character",
+    "best": true
+  },
+  {
+    "title": "Censer Knight",
+    "date": "2022/01/17",
+    "path": "censerknight.jpg",
+    "description": "Inspired by PanelPerDay's style",
+    "best": true
+  },
+  {
+    "title": "Beetle",
+    "date": "2022/01/11",
+    "path": "beetle.gif",
+    "description": "Animated bug",
+    "best": true
+  },
+  {
+    "title": "Frogether",
+    "date": "2022/01/08",
+    "path": "frogether.jpg",
+    "description": "Drawing made from a Twitter prompt",
+    "best": true
+  },
+  {
+    "title": "Magical items",
+    "date": "2022/01/06",
+    "path": "magicalitems.jpg",
+    "description": "Some shading practica inspired by Gaziter's style",
+    "best": true
+  },
+  {
+    "title": "Blukelele spin",
+    "date": "2022/01/05",
+    "path": "ukespin.gif",
+    "description": "Blukelele gif",
+    "best": true
+  },
+  {
+    "title": "New pfp",
+    "date": "2022/01/03",
+    "path": "newrain.jpg",
+    "description": "Updated profile picture",
+    "best": true
+  },
+  {
+    "title": "2022 poster",
+    "date": "2022/01/02",
+    "path": "2022poster.png",
+    "description": "2022, year of the tiger",
+    "best": true
+  },
+  {
     "title": "Christmas Kate",
     "date": "2021/12/01",
     "path": "kate.png",

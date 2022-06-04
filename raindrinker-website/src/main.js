@@ -6,11 +6,11 @@ import VueAnalytics from 'vue-analytics'
 
 import VueMq from 'vue-mq';
 import {VueMasonryPlugin} from 'vue-masonry';
-import Gallery from "./components/Gallery";
-import About from "./components/About";
-import Games from "./components/Games";
-import Articles from "./components/Articles";
-import Resume from "./components/Resume";
+import Gallery from "./components/GalleryPage";
+import About from "./components/AboutPage";
+import Games from "./components/GamesPage";
+import Articles from "./components/ArticlesPage";
+import Resume from "./components/ResumePage";
 
 Vue.config.productionTip = false;
 
