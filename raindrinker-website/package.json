@@ -13,15 +13,16 @@
     "vue": "^2.6.14",
     "vue-analytics": "^5.22.1",
     "vue-carousel": "^0.18.0",
+    "vue-html2pdf": "^1.8.0",
     "vue-masonry": "^0.11.8",
     "vue-mq": "^1.0.1",
     "vue-router": "^3.5.4"
   },
   "devDependencies": {
+    "@babel/eslint-parser": "^7.5.4",
     "@vue/cli-plugin-babel": "^5.0.4",
     "@vue/cli-plugin-eslint": "^5.0.4",
     "@vue/cli-service": "^5.0.4",
-    "@babel/eslint-parser": "^7.5.4",
     "eslint": "^8.17.0",
     "eslint-plugin-vue": "^9.1.0",
     "vue-template-compiler": "^2.6.14"

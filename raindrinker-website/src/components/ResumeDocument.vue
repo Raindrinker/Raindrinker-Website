@@ -59,6 +59,23 @@
 
         <div class="leftpad">
 
+          <div class="title3">
+            Teacher at La Salle Campus Barcelona
+          </div>
+          <div class="date">
+            2022-...
+          </div>
+
+          <div class="leftpad">
+            Teaching two university-level courses:
+            <ul>
+              <li>Video Game Programming (C++, OpenGL)
+              </li>
+              <li>Object-Oriented Programming
+              </li>
+            </ul>
+          </div>
+
             <div class="title3">
                 Game Designer & Pixel Artist at Appnormals
             </div>
@@ -78,6 +95,8 @@
                 </ul>
             </div>
 
+          <div class="html2pdf__page-break"/>
+
             <div class="title3">
                 Game Designer at Abylight
             </div>
@@ -96,6 +115,8 @@
                     </li>
                 </ul>
             </div>
+
+
 
             <div class="title3">
                 Participant in lots of game jams
@@ -269,7 +290,7 @@
         background-color: white;
         max-width: 80%;
         width: 100%;
-        padding: 32px;
+        padding: 64px;
         font-family: Nunito, sans-serif;
     }
 
@@ -281,7 +302,7 @@
     .title2-row {
         display: flex;
         font-size: 24px;
-        margin-top: 32px;
+        padding-top: 32px;
         margin-bottom: 8px;
     }
 
