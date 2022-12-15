@@ -10,5 +10,17 @@
     "team": "Icedrop Games",
     "role": "Game & Level Design, Art, Programming",
     "tools": "Godot"
+  },
+  {
+    "title": "Terracotta",
+    "link": "https://store.steampowered.com/app/748020/TERRACOTTA/",
+    "date": "2022/11/14",
+    "image": "terracotta_steam.png",
+    "screenshots": [],
+    "genre": "Action Puzzle Adventure",
+    "description": "Puzzle action adventure inspired by the terracotta warriors of the Qin dynasty",
+    "team": "Appnormals",
+    "role": "Gameplay programming, Technical art, Pixelart",
+    "tools": "Unity"
   }
 ]

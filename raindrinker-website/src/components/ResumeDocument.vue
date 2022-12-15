@@ -47,7 +47,24 @@
         <div class="leftpad">
           Minimalist puzzle game about connecting numbered stars, published on Steam.
           <br>
-          Slowly developed in a 2-person team (Icedrop Games) during non-work hours.
+          Slowly developed in a 2-person team (Icedrop Games) during non-work hours. - Design, art, programming.
+        </div>
+
+      </div>
+
+      <div class="leftpad">
+
+        <div class="title3">
+          Terracotta
+        </div>
+        <div class="date">
+          2022-11-14
+        </div>
+
+        <div class="leftpad">
+          Puzzle action adventure inspired by the terracotta warriors of the Qin dynasty.
+          <br>
+          In studio Appnormals. - Gameplay, technical art, pixelart.
         </div>
 
       </div>
