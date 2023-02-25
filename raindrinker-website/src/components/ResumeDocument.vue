@@ -77,18 +77,22 @@
         <div class="leftpad">
 
           <div class="title3">
-            Teacher at La Salle Campus Barcelona
+            Teacher at La Salle Campus Barcelona & ENTI
           </div>
           <div class="date">
             2022-...
           </div>
 
           <div class="leftpad">
-            Teaching two university-level courses:
+            Teaching four university-level courses:
             <ul>
               <li>Video Game Programming (C++, OpenGL)
               </li>
               <li>Object-Oriented Programming
+              </li>
+              <li>Project Development
+              </li>
+              <li>Pixelart for videogames
               </li>
             </ul>
           </div>
@@ -97,7 +101,7 @@
                 Game Designer & Pixel Artist at Appnormals
             </div>
             <div class="date">
-                2021-...
+                2021-2023
             </div>
 
             <div class="leftpad">
