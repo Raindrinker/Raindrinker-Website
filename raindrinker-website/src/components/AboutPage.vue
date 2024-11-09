@@ -1,7 +1,7 @@
 <template>
     <div class="body">
         <div class="profile-row" :class="$mq">
-            <img src="../assets/photo.jpg" class="image" :class="$mq">
+            <img src="../assets/photo2.jpg" class="image" :class="$mq">
             <div class="text" :class="$mq">
                 Hi! I'm Ferran Ruiz (Raindrinker on the internet) and I like making small interesting games that matter.
                 <br><br>
