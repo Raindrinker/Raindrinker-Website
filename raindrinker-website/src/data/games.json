@@ -12,6 +12,18 @@
     "tools": "Godot"
   },
   {
+    "title": "LOK Digital",
+    "link": "https://store.steampowered.com/app/2207440/LOK_Digital/",
+    "date": "2024/12/11",
+    "image": "lok.jpg",
+    "screenshots": [],
+    "genre": "Puzzle",
+    "description": "Minimalist word-search puzzle game",
+    "team": "with Blaž Urban Gracar (Letibus Designs)",
+    "role": "Programming, Design, Pixelart",
+    "tools": "Unity"
+  },
+  {
     "title": "Terracotta",
     "link": "https://store.steampowered.com/app/748020/TERRACOTTA/",
     "date": "2022/11/14",
@@ -21,6 +33,18 @@
     "description": "Puzzle action adventure inspired by the terracotta warriors of the Qin dynasty",
     "team": "Appnormals",
     "role": "Gameplay programming, Technical art, Pixelart",
+    "tools": "Unity"
+  },
+  {
+    "title": "Frank&Drake",
+    "link": "https://store.steampowered.com/app/1530800/Frank_and_Drake/",
+    "date": "2023/07/20",
+    "image": "frankdrake.jpg",
+    "screenshots": [],
+    "genre": "Narrative Visual Adventure",
+    "description": "Mystery visual novel adventure",
+    "team": "Appnormals",
+    "role": "Gameplay programming",
     "tools": "Unity"
   }
 ]
