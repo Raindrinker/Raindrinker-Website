@@ -5,7 +5,7 @@
           <img src="../assets/icons/download.png"/> DONWNLOAD AS PDF
         </div>
       </div>
-      <VueHtml2pdf ref="html2pdf" filename="CV_Ferran_Ruiz_Sala" :manual-pagination="true" :margin="200">
+      <VueHtml2pdf ref="html2pdf" filename="CV_Ferran_Ruiz_Sala" :manual-pagination="true" :margin="100">
         <section slot="pdf-content">
           <ResumeDocument class="doc"/>
         </section>
@@ -22,7 +22,15 @@
         components: {ResumeDocument, VueHtml2pdf},
         methods: {
           onClickDownload() {
-            this.$refs.html2pdf.generatePdf()
+            this.$refs.html2pdf.generatePdf(this.htmlToPdfOptions)
+          }
+        },
+        data(){
+          return {
+            options: {
+              margin: 0,
+              filename: "CV_Ferran_Ruiz_Sala"
+            }
           }
         }
     }

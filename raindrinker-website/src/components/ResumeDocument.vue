@@ -38,6 +38,40 @@
       <div class="leftpad">
 
         <div class="title3">
+          LOK Digital
+        </div>
+        <div class="date">
+          2024-12-11
+        </div>
+
+        <div class="leftpad">
+          Minimalist puzzle game adapted from a pen&paper puzzle game by Blaž Urban Gracar
+          <br>
+          Developed together with Blaž Urban Gracar. Multiple nominations to awards and Game of The Day in Apple Store in 172 countries.
+        </div>
+
+      </div>
+
+      <div class="leftpad">
+
+        <div class="title3">
+          Frank and Drake
+        </div>
+        <div class="date">
+          2023-07-20
+        </div>
+
+        <div class="leftpad">
+          Narrative mystery adventure
+          <br>
+          In studio Appnormals. - Gameplay.
+        </div>
+
+      </div>
+
+      <div class="leftpad">
+
+        <div class="title3">
           Constellations: Puzzles in the Sky
         </div>
         <div class="date">
@@ -51,6 +85,9 @@
         </div>
 
       </div>
+
+
+      <div class="html2pdf__page-break"/>
 
       <div class="leftpad">
 
@@ -68,6 +105,7 @@
         </div>
 
       </div>
+
 
         <div class="title2-row">
             <div class="icon">games</div>

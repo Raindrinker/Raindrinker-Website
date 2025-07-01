@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d281c6a7-4f38-4fc3-9c63-98ce7f0682d9" name="Changes" comment="" />
+    <list default="true" id="d281c6a7-4f38-4fc3-9c63-98ce7f0682d9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raindrinker-website/src/components/ResumeDocument.vue" beforeDir="false" afterPath="$PROJECT_DIR$/raindrinker-website/src/components/ResumeDocument.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raindrinker-website/src/components/ResumePage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/raindrinker-website/src/components/ResumePage.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,6 +54,7 @@
       <workItem from="1676982700687" duration="707000" />
       <workItem from="1677309831874" duration="163000" />
       <workItem from="1731174431743" duration="844000" />
+      <workItem from="1751366269801" duration="1014000" />
     </task>
     <servers />
   </component>
