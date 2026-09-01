@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d281c6a7-4f38-4fc3-9c63-98ce7f0682d9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/raindrinker-website/src/components/ResumeDocument.vue" beforeDir="false" afterPath="$PROJECT_DIR$/raindrinker-website/src/components/ResumeDocument.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/raindrinker-website/src/components/ResumePage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/raindrinker-website/src/components/ResumePage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raindrinker-website/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/raindrinker-website/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raindrinker-website/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/raindrinker-website/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raindrinker-website/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/raindrinker-website/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
